@@ -1,0 +1,18 @@
+h3{
+    font-size: 40px !important;
+}
+.btn-danger:hover{
+    background-color: rgb(109, 0, 56);
+}
+.btn-success:hover{
+    background-color: rgb(89, 0, 0);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 4px 4px 40px rgb(111, 0, 80);}
+    to{ box-shadow: 4px 4px 40px rgb(62, 0, 73);}
+}
